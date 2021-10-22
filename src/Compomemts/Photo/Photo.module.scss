@@ -1,0 +1,23 @@
+.userImageContainer{
+    width: 100%;
+    overflow: hidden;
+}
+
+.userImageContainer > img{
+    width: 100%;
+    height: inherit;
+    object-fit:cover;
+}
+
+.layer{
+    width: 300.5px;
+    height: 364px;
+    background-color: rgb(29, 29, 75);
+    opacity: 0.5;
+    position: absolute;
+    top: 27px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border: darkgray;
+    
+}
